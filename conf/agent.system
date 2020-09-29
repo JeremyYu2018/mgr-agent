@@ -1,0 +1,13 @@
+[system]
+cluster_vip              =  192.168.43.38
+nic                      =  en0
+polling_interval_Seconds =  5
+admin_user      =  admin_op
+admin_password  =  admin_op
+admin_address   =  172.16.200.12
+#尽量填写MySQL 8.0管理端口, 管理端口不受max_connections的限制。
+admin_port      =  5000
+#peer_ips同时也会作为group_replication_group_seeds的值。
+peer_ips        =  172.16.200.12,172.16.200.13,172.16.200.14
+# todo: ordinal是MGR节点序号
+ordinal         = 0
