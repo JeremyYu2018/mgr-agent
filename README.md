@@ -12,9 +12,9 @@ admin_password  =  admin_op
 admin_address   =  172.16.200.12
 #尽量填写MySQL 8.0管理端口, 管理端口不受max_connections的限制。
 admin_port      =  5000
-#peer_ips同时也会作为group_replication_group_seeds的值。
 peer_ips        =  172.16.200.12,172.16.200.13,172.16.200.14
 ```
+
 - cluster_vip  集群的VIP（三个节点可以不配置一致)；
 
 - polling_interval_Seconds:  检测节点角色的时间频率，单位为秒(S)；

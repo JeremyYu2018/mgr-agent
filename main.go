@@ -115,7 +115,7 @@ func LogInit() (err error) {
 			"level": "TRAC",       
 			"daily": true,          
 			"maxlines": 100000000000,   
-			"maxsize": 1,           
+			"maxsize": 25,           
 			"maxdays": 15,         
 			"append": true,        
 			"permit": "0660"       
